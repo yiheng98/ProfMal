@@ -1,0 +1,7 @@
+joern_path: "./joern-cli-4.0.227/joern-cli" # the path of the joern-cli
+
+sudo_passwd: you_sudo_passwd
+
+LLM: "the_name_of_the_model"
+
+API_KEY: "api_key_of_the_model"

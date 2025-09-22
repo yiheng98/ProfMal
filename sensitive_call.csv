@@ -1,0 +1,220 @@
+module,property,fullName,domain,category
+process,env,process.env,Environment,Environment Information Retrieval
+process,cwd,process.cwd,Environment,Environment Information Retrieval
+process,getuid,process.getuid,Environment,Environment Information Retrieval
+process,geteuid,process.geteuid,Environment,Environment Information Retrieval
+process,getgid,process.getgid,Environment,Environment Information Retrieval
+process,getegid,process.getegid,Environment,Environment Information Retrieval
+process,getgroups,process.getgroups,Environment,Environment Information Retrieval
+process,version,process.version,Environment,Environment Information Retrieval
+process,platform,process.platform,Environment,Environment Information Retrieval
+process,arch,process.arch,Environment,Environment Information Retrieval
+process,chdir,process.chdir,Path,Path Manipulation
+os,platform,os.platform,Environment,System Information Retrieval
+os,arch,os.arch,Environment,System Information Retrieval
+os,release,os.release,Environment,System Information Retrieval
+os,type,os.type,Environment,System Information Retrieval
+os,uptime,os.uptime,Environment,System Information Retrieval
+os,hostname,os.hostname,Environment,System Information Retrieval
+os,cpus,os.cpus,Environment,System Information Retrieval
+os,networkInterfaces,os.networkInterfaces,Environment,Network Information Retrieval
+os,freemem,os.freemem,Environment,System Information Retrieval
+os,totalmem,os.totalmem,Environment,System Information Retrieval
+os,userInfo,os.userInfo,Environment,System Information Retrieval
+os,homedir,os.homedir,Environment,System Information Retrieval
+os,machine,os.machine,Environment,System Information Retrieval
+os,tmpdir,os.tmpdir,Environment,System Information Retrieval
+os,version,os.version,Environment,System Information Retrieval
+zlib,brotliCompress,zlib.brotliCompress,Compression,Data Compression
+zlib,brotliCompressSync,zlib.brotliCompressSync,Compression,Data Compression
+zlib,brotliDecompress,zlib.brotliDecompress,Compression,Data Decompression
+zlib,brotliDecompressSync,zlib.brotliDecompressSync,Compression,Data Decompression
+zlib,deflate,zlib.deflate,Compression,Data Compression
+zlib,deflateSync,zlib.deflateSync,Compression,Data Compression
+zlib,deflateRaw,zlib.deflateRaw,Compression,Data Compression
+zlib,deflateRawSync,zlib.deflateRawSync,Compression,Data Compression
+zlib,gunzip,zlib.gunzip,Compression,Data Compression
+zlib,gunzipSync,zlib.gunzipSync,Compression,Data Compression
+zlib,gzip,zlib.gzip,Compression,Data Compression
+zlib,gunzipSync,zlib.gunzipSync,Compression,Data Decompression
+zlib,inflate,zlib.inflate,Compression,Data Decompression
+zlib,inflateSync,zlib.inflateSync,Compression,Data Decompression
+zlib,inflateRaw,zlib.inflateRaw,Compression,Data Decompression
+zlib,inflateRawSync,zlib.inflateRawSync,Compression,Data Decompression
+zlib,unzip,zlib.unzip,Compression,Data Decompression
+zlib,zstdCompress,zlib.zstdCompress,Compression,Data Compression
+zlib,zstdCompressSync,zlib.zstdCompressSync,Compression,Data Compression
+zlib,zstdDecompress,zlib.zstdDecompress,Compression,Data Decompression
+zlib,zstdDecompressSync,zlib.zstdDecompressSync,Compression,Data Decompression
+zlib,createBrotliCompress,zlib.createBrotliCompress,Compression,Create Compression Stream
+zlib,createBrotliDecompress,zlib.createBrotliDecompress,Compression,Create Decompression Stream
+zlib,createDeflate,zlib.createDeflate,Compression,Create Compression Stream
+zlib,createDeflateRaw,zlib.createDeflateRaw,Compression,Create Compression Stream
+zlib,createGunzip,zlib.createGunzip,Compression,Create Decompression Stream
+zlib,createGzip,zlib.createGzip,Compression,Create Compression Stream
+zlib,createInflate,zlib.createInflate,Compression,Create Decompression Stream
+zlib,createInflateRaw,zlib.createInflateRaw,Compression,Create Decompression Stream
+zlib,createUnzip,zlib.createUnzip,Compression,Create Decompression Stream
+zlib,createZstdCompress,zlib.createZstdCompress,Compression,Create Compression Stream
+zlib,createZstdDecompress,zlib.createZstdDecompress,Compression,Create Decompression Stream
+Buffer,from,Buffer.from,Data Transformation,Buffer Conversion
+buffer,Buffer.from,buffer.Buffer.from,Data Transformation,Buffer Conversion
+child_process,exec,child_process.exec,Process,Command Execution
+child_process,execSync,child_process.execSync,Process,Command Execution
+child_process,execFile,child_process.execFile,Process,File Execution
+child_process,execFileSync,child_process.execFileSync,Process,File Execution
+child_process,spawn,child_process.spawn,Process,Process Creation
+child_process,spawnSync,child_process.spawnSync,Process,Process Creation
+child_process,spawn.stdout.pipe,child_process.spawn.stdout.pipe,Process,Redirect
+child_process,spawnSync.stdout.pipe,child_process.spawnSync.stdout.pipe,Process,Redirect
+child_process,spawn.stderr.pipe,child_process.spawn.stderr.pipe,Process,Redirect
+child_process,spawnSync.stderr.pipe,child_process.spawnSync.stderr.pipe,Process,Redirect
+child_process,fork,child_process.fork,Process,Process Creation
+net,Socket,net.Socket,Network,Network Creation
+net,Socket.connect,net.Socket.connect,Network,Connection Establishment
+net,connect,net.connect,Network,Connection Establishment
+net,Socket.pipe,net.Socket.pipe,Network,Redirect
+net,createConnection,net.createConnection,Network,Connection Establishment
+net,createServer,net.createServer,Network,Connection Establishment
+https,get,https.get,Network,GET Request
+https,request,https.request,Network,Network Creation
+https,request.write,https.request.write,Network,Send Data Over Network
+https,request.on.write,https.request.on.write,Network,Send Data Over Network
+https,request.end,https.request.end,Network,Send Data Over Network
+https,createServer,https.createServer,Network,Network Creation
+http,createServer,http.createServer,Network,Network Creation
+http,get,http.get,Network,GET Request
+http,request,http.request,Network,Network Creation
+http,request.write,http.request.write,Network,Send Data Over Network
+http,request.on.write,http.request.on.write,Network,Send Data Over Network
+http,request.end,http.request.end,Network,Send Data Over Network
+global,fetch,global.fetch,Network,GET Request
+global,Buffer,global.Buffer,Data Transformation,Buffer Conversion
+global,Function,global.Function,Function Creation,Runtime Evaluation
+global,eval,global.eval,Runtime Evaluation,Runtime Evaluation
+tls,connect,tls.connect,Network,Connection Establishment
+tls,createServer,tls.createServer,Network,Network Creation
+tls,connect.pipe,tls.connect.pipe,Network,Redirect
+fs,appendFile,fs.appendFile,File,Write File
+fs/promises,appendFile,fs/promises.appendFile,File,Write File
+fs,appendFileSync,fs.appendFileSync,File,Write File
+fs,chmod,fs.chmod,File,File Attributes Modification
+fs/promises,chmod,fs/promises.chmod,File,File Attributes Modification
+fs,chmodSync,fs.chmodSync,File,File Attributes Modification
+fs,chown,fs.chown,File,File Attributes Modification
+fs/promises,chown,fs/promises.chown,File,File Attributes Modification
+fs,chownSync,fs.chownSync,File,File Attributes Modification
+fs,fchmod,fs.fchmod,File,File Attributes Modification
+fs,fchmodSync,fs.fchmodSync,File,File Attributes Modification
+fs,fchown,fs.fchown,File,File Attributes Modification
+fs,fchownSync,fs.fchownSync,File,File Attributes Modification
+fs,copyFile,fs.copyFile,File,Copy File
+fs/promises,copyFile,fs/promises.copyFile,File,Copy File
+fs,copyFileSync,fs.copyFileSync,File,Copy File
+fs,cp,fs.cp,File,Copy File
+fs/promises,cp,fs/promises.cp,File,Copy File
+fs,cpSync,fs.cpSync,File,Copy File
+fs,createReadStream,fs.createReadStream,File,Create File Stream
+fs,createWriteStream,fs.createWriteStream,File,Create File Stream
+fs,createWriteStream.write,fs.createWriteStream.write,File,Write File
+fs,glob,fs.glob,File,Search File
+fs/promises,glob,fs/promises.glob,File,Search File
+fs,globSync,fs.globSync,File,Search File
+fs,mkdir,fs.mkdir,File,Create Directory
+fs/promises,mkdir,fs/promises.mkdir,File,Create Directory
+fs,mkdirSync,fs.mkdirSync,File,Create Directory
+fs,mkdtemp,fs.mkdtemp,File,Create Directory
+fs/promises,mkdtemp,fs/promises.mkdtemp,File,Create Directory
+fs,mkdtempSync,fs.mkdtempSync,File,Create Directory
+fs,open,fs.open,File,Open File
+fs/promises,open,fs/promises.open,File,Open File
+fs,openSync,fs.openSync,File,Open File
+fs,openAsBlob,fs.openAsBlob,File,Open File
+fs,opendir,fs.opendir,File,Open Directory
+fs/promises,opendir,fs/promises.opendir,File,Open Directory
+fs,opendirSync,fs.opendirSync,File,Open Directory
+fs,read,fs.read,File,Read File
+fs,readSync,fs.readSync,File,Read File
+fs,readdir,fs.readdir,File,Read Directory
+fs/promises,readdir,fs/promises.readdir,File,Read Directory
+fs,readdirSync,fs.readdirSync,File,Read Directory
+fs,readFile,fs.readFile,File,Read File
+fs/promises,readFile,fs/promises.readFile,File,Read File
+fs,readFileSync,fs.readFileSync,File,Read File
+fs,readLink,fs.readLink,File,Read File
+fs/promises,readlink,fs/promises.readlink,File,Read File
+fs,readlinkSync,fs.readlinkSync,File,Read File
+fs,readv,fs.readv,File,Read File
+fs,readvSync,fs.readvSync,File,Read File
+fs,rename,fs.rename,File,File Attributes Modification
+fs/promises,rename,fs/promises.rename,File,File Attributes Modification
+fs,renameSync,fs.renameSync,File,File Attributes Modification
+fs,rmdir,fs.rmdir,File,Delete Directory
+fs/promises,rmdir,fs/promises.rmdir,File,Delete Directory
+fs,rmdirSync,fs.rmdirSync,File,Delete Directory
+fs,rm,fs.rm,File,Delete File
+fs/promises,rm,fs/promises.rm,File,Delete File
+fs,rmSync,fs.rmSync,File,Delete File
+fs,unlink,fs.unlink,File,Delete File
+fs/promises,unlink,fs/promises.unlink,File,Delete File
+fs,unlinkSync,fs.unlinkSync,File,Delete File
+fs,write,fs.write,File,Write File
+fs,writeSync,fs.writeSync,File,Write File
+fs,writeFile,fs.writeFile,File,Write File
+fs/promises,writeFile,fs/promises.writeFile,File,Write File
+fs,writeFileSync,fs.writeFileSync,File,Write File
+fs,exists,fs.exists,File,File Existence Check
+fs,existsSync,fs.existsSync,File,File Existence Check
+dns,getServers,dnd.getServers,Environment,Network Information Retrieval
+dns,setServers,dns.setServers,Network,Network Manipulation
+dns,lookup,dns.lookup,Network,Resolve DNS
+dns,lookupService,dns.lookupService,Network,Resolve DNS
+dns,resolve,dns.resolve,Network,Resolve DNS
+dns,resolve4,dns.resolve4,Network,Resolve DNS
+dns,resolve6,dns.resolve6,Network,Resolve DNS
+dns,resolveAny,dns.resolveAny,Network,Resolve DNS
+dns,resolveCaa,dns.resolveCaa,Network,Resolve DNS
+dns,resolveCname,dns.resolveCname,Network,Resolve DNS
+dns,resolveMx,dns.resolveMx,Network,Resolve DNS
+dns,resolveNaptr,dns.resolveNaptr,Network,Resolve DNS
+dns,resolveNs,dns.resolveNs,Network,Resolve DNS
+dns,resolvePtr,dns.resolvePtr,Network,Resolve DNS
+dns,resolveSoa,dns.resolveSoa,Network,Resolve DNS
+dns,resolveSrv,dns.resolveSrv,Network,Resolve DNS
+dns,resolveTxt,dns.resolveTxt,Network,Resolve DNS
+dns,reverse,dns.reverse,Network,Resolve DNS
+dns,Resolver.resolve4,dns.Resolver.resolve4,Network,Resolve DNS
+path,dirname,path.dirname,Path,Path Information Retrieval
+path,extname,path.extname,Path,Path Information Retrieval
+path,format,path.format,Path,Path Manipulation
+path,join,path.join,Path,Path Manipulation
+path,normalize,path.normalize,Path,Path Manipulation
+path,parse,path.parse,Path,Path Manipulation
+path,relative,path.relative,Path,Path Manipulation
+path,resolve,path.resolve,Path,Path Manipulation
+crypto,createCipheriv,crypto.createCipheriv,Encryption,Create Cipher
+crypto,createCipheriv.write,crypto.createCipheriv.write,Encryption,Cipher Data
+crypto,createCipheriv.update,crypto.createCipheriv.update,Encryption,Cipher Data
+crypto,createCipher,crypto.createCipher,Encryption,Create Cipher
+crypto,createCipher.write,crypto.createCipher.write,Encryption,Cipher Data
+crypto,createCipher.update,crypto.createCipher.update,Encryption,Cipher Data
+crypto,createDecipher,crypto.createDecipher,Encryption,Create Decipher
+crypto,createDecipher.write,crypto.createDecipher.write,Encryption,Decipher Data
+crypto,createDecipher.update,crypto.createDecipher.update,Encryption,Decipher Data
+crypto,createDecipheriv,crypto.createDecipheriv,Encryption,Create Decipher
+crypto,createDecipheriv.update,crypto.createDecipheriv.update,Encryption,Decipher Data
+crypto,createDecipheriv.write,crypto.createDecipheriv.write,Encryption,Decipher Data
+crypto,privateDecrypt,crypto.privateDecrypt,Encryption,Decipher Data
+crypto,privateEncrypt,crypto.privateEncrypt,Encryption,Cipher Data
+crypto,publicDecrypt,crypto.publicDecrypt,Encryption,Decipher Data
+crypto,publicEncrypt,crypto.publicEncrypt,Encryption,Cipher Data
+util,pump,util.pump,Auxiliary,Redirect
+request,write,request.write,Network,Send Data Over Network
+Cipher,update,Cipher.update,Encryption,Cipher Data
+Cipher,update,Cipher.write,Encryption,Cipher Data
+Cipheriv,update,Cipheriv.update,Encryption,Cipher Data
+Cipheriv,write,Cipheriv.write,Encryption,Cipher Data
+Decipher,update,Decipher.update,Encryption,Decipher Data
+Decipher,write,Decipher.write,Encryption,Decipher Data
+Decipheriv,update,Decipheriv.update,Encryption,Decipher Data
+Decipheriv,write,Decipheriv.write,Encryption,Decipher Data

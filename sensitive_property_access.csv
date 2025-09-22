@@ -1,0 +1,11 @@
+module,property,fullName,domain
+process,env,process.env,Environment,Environment Information Retrieval
+process,cwd,process.cwd,Environment,Environment Information Retrieval
+process,getuid,process.getuid,Environment,Environment Information Retrieval
+process,geteuid,process.geteuid,Environment,Environment Information Retrieval
+process,getgid,process.getgid,Environment,Environment Information Retrieval
+process,getegid,process.getegid,Environment,Environment Information Retrieval
+process,getgroups,process.getgroups,Environment,Environment Information Retrieval
+process,version,process.version,Environment,Environment Information Retrieval
+process,platform,process.platform,Environment,Environment Information Retrieval
+process,arch,process.arch,Environment,Environment Information Retrieval
