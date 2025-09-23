@@ -65,7 +65,7 @@ The detector runs only on Linux, to run the dynamic analysis, docker is necessar
   docker load -i dynamic_env.tar
   ```
 
-+ ProfMal leverages [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3), You can deploy the model on your own server or access it via an API. See llm.py: implement your connection logic in *connect_with_retry*, and set *base_url* if necessary.
++ ProfMal leverages [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3), You can deploy the model on your own server or access it via an API. See llm.py: implement your connection logic in *connect_with_retry*, and set *base_url* in *OpenAI* APi if necessary.
 
 + Set up the `config.yaml`
 
