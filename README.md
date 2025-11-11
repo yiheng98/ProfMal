@@ -117,7 +117,7 @@ graph_only = False
 
 + workspace_path: Where Joern and Jelly write their analysis results, and where the behavior graph will be saved.
 
-+ overwrite: If True, remove previous outputs and re-analyze the package.
++ overwrite: If True, remove previous outputs and re-analyze the package; if False, load the previous results from a pickle file in the static or dynamic folder.
 
 + dynamic_support: If True, include dynamic analysis.
 
